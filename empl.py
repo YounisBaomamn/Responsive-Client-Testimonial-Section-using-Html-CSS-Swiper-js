@@ -69,18 +69,7 @@ def printt():
 def main():
     poss=True
     while poss:
-   
-
-       
-        print('\n Employee Management System\n')
-        print('\t1. create an employee')
-        print('\t2. updat_dit an employee')
-        print('\t3. delete_employee')
-        print('\t4. searh_employee')
-        print('\t5. print_employee')
-        print('\t8. close\n')
-
-        unm=int(input('Enter an option to continue: '))
+        unm=int(input('Enter an option to checkout: '))
         print('\n')
         if unm==1:
             create()
