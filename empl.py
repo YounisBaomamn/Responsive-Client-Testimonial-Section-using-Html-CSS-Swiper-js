@@ -87,7 +87,7 @@ def main():
         elif unm==2:
             updat_dit()
            
-        elif unm==3:
+        elif unm==7:
             delete_employee()
            
         elif unm==4:
