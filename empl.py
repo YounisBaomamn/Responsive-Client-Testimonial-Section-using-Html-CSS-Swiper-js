@@ -12,7 +12,7 @@ def create():
             while key=='emp_id' and list(filter(lambda x: x[key]==new_emp[key],employee_lest)):
                 print("Existed before id prepared id")
                 new_emp[key]=int(input("Enter %s:  " %key ))
-            
+#           this is me  
         employee_lest.append(new_emp)
 # def updat_dit():
 #     empp_id=int(input("\nEnter id emploeey  : "))
