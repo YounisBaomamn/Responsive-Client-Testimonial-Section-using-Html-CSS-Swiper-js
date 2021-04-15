@@ -23,6 +23,7 @@ def updat_dit():
         print('\n')
         upd_emp[key]=pra_value(key,nea_val)if nea_val else val
 
+        #def delete
 
 def delete_employee():
    new_emp=int(input("Enter id employee :  " ))
