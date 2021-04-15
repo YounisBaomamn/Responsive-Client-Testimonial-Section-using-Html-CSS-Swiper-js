@@ -1,3 +1,4 @@
+#i rewrite code
 emp={'emp_id':'','emp_name':'','emp_joining_date':'','emp_department':'','emp_salary':'','emp_age':''}
 employee_lest=[]
 def create():
