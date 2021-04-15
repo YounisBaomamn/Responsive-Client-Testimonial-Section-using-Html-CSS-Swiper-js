@@ -65,7 +65,7 @@ def printt():
                for key, val in se_emp.items():
                   print('\t ', se_emp[key], end= "   ")
                break
-                  
+   #def main               
 def main():
     poss=True
     while poss:
