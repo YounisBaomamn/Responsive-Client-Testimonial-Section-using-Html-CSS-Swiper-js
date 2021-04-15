@@ -1,4 +1,4 @@
-emp={'emp_id':'','emp_name':'','emp_joining_date':'','emp_department':'','emp_salary':''}
+emp={'emp_id':'','emp_name':'','emp_joining_date':'','emp_department':'','emp_salary':'','emp_age':''}
 employee_lest=[]
 def create():
     cr_rmp=int(input("How many empployees want to clean  number:  "))
