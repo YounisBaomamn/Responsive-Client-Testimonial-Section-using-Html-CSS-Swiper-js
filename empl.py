@@ -36,7 +36,7 @@ def searh():
      se_emp=(list(filter(lambda x: x['emp_id']==item,employee_lest))[i])
      print(se_emp)
      break
-    
+#pra_v    
 def pra_value(key ,value):
     if key in ('emp_id','emp_salary')   :
         cor_valeu=int(value)
