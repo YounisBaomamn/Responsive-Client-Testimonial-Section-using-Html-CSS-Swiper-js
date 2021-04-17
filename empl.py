@@ -15,14 +15,14 @@ def create():
                 new_emp[key]=int(input("Enter %s:  " %key ))
 #           this is me  
         employee_lest.append(new_emp)
-# def updat_dit():
-#     empp_id=int(input("\nEnter id emploeey  : "))
-#     upd_emp= list(filter(lambda x: x['emp_id']== empp_id, employee_lest))[0]
-#     for key ,val in upd_emp.aitems():
-#         if key == 'emp_id':continue
-#         nea_val=input("Enter {} new value \t".format(key))
-#         print('\n')
-#         upd_emp[key]=pra_value(key,nea_val)if nea_val else val
+def updat_dit():
+    empp_id=int(input("\nEnter id emploeey  : "))
+    upd_emp= list(filter(lambda x: x['emp_id']== empp_id, employee_lest))[0]
+    for key ,val in upd_emp.aitems():
+        if key == 'emp_id':continue
+        nea_val=input("Enter {} new value \t".format(key))
+        print('\n')
+        upd_emp[key]=pra_value(key,nea_val)if nea_val else val
 
       
 
